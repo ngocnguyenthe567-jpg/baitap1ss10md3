@@ -1,3 +1,5 @@
+package baitap01;
+
 import java.util.Scanner;
 
 public class Main {
@@ -13,7 +15,7 @@ public class Main {
 
             double averageScore = InputData.getDouble(scanner , "Nhập điểm trung bình sinh viên: ");
 
-            Student student = new exercise01.Student(name, age, averageScore);
+            Student student = new baitap01.Student(name, age, averageScore);
             manager.addStudent(student);
 
 
